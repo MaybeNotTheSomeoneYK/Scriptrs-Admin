@@ -10,4 +10,4 @@ An admin system which (not quite) many commands and features
 - Uses TextChatCommand instead of .Chatted
 
 # 📞 Contact(s)
-[![Discord](https://shields.io)](<https://discord.com/users/1033949171796946966>)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1033949171796946966)
