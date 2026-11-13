@@ -1,2 +1,1 @@
-# Scriptr-s-Admin
-an admin system
+changed readme.md
