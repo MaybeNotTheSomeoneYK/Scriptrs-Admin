@@ -7,7 +7,7 @@ An admin system which (not quite) many commands and features
 
 # 💎 Perks
 - Clear customization instructions
-- 10+ Built In commands (not that impressive ik ik)
+- 15+ Built In commands (not that impressive ik ik)
 - A removable watermark
 - Uses TextChatCommand instead of .Chatted
 
