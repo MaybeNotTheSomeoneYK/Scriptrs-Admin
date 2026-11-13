@@ -1,4 +1,6 @@
 # ✨ Scriptr's Admin ✨
+[![Releases](https://img.shields.io/badge/Releases-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaybeNotTheSomeoneYK/Scriptrs-Admin/releases)
+
 <img width="356" height="60" alt="image" src="https://github.com/user-attachments/assets/014db7bd-ffdf-4b8b-9105-a956fcd4c823" />
 
 An admin system which (not quite) many commands and features
