@@ -71,7 +71,7 @@ for _,v in commands do
 				if v.RankLock then
 					local index = doloop[2]
 					if index then
-						if api.serveradmins[args[index].UserId]>=api.serveradmins[p.UserId] then
+						if api.serveradmins[clonedargs[index].UserId]>=api.serveradmins[p.UserId] then
 							api.shared.SARemotes.NotifyClient:FireClient(game.Players:GetPlayerByUserId(p.UserId),
 								3,
 								api.settings.CoreName,
@@ -83,7 +83,7 @@ for _,v in commands do
 				if v.ExcludeCreator then
 					local index = doloop[2]
 					if index then
-						if api.getOwner().UserId == args[index].UserId then
+						if api.getOwner().UserId == clonedargs[index].UserId then
 							return api.shared.SARemotes.NotifyClient:FireClient(game.Players:GetPlayerByUserId(p.UserId),
 								3,
 								api.settings.CoreName,

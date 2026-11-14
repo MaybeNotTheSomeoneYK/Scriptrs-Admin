@@ -1,10 +1,10 @@
 {
   "properties": {
-    "ExplorerIconContent": {
-      "Content": "None"
-    },
     "SerializedOverrides": {
       "BinaryString": ""
+    },
+    "ExplorerIconContent": {
+      "Content": "None"
     }
   }
 }
