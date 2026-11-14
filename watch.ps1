@@ -88,9 +88,11 @@ try {
     while ($true) {
         $notification = Wait-Event -Timeout 1
 
-        if ($notification) {
-            Get-Event |
-                Where-Object { $_.SourceIdentifier -in @("ModelChanged", "ModelCreated", "ModelRenamed") } |
+    if ($notification) {
+        Start-Sleep -Seconds 3
+
+        Get-Event |
+            Where-Object { $_.SourceIdentifier -in @("ModelChanged", "ModelCreated", "ModelRenamed") } |
                 Remove-Event
 
             Sync-Model

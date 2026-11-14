@@ -3,6 +3,10 @@
     "SerializedOverrides": {
       "BinaryString": ""
     },
+    "RequiresHandle": false,
+    "ExplorerIconContent": {
+      "Content": "None"
+    },
     "SourceAssetId": 142785488.0,
     "ToolTip": "Building Tools by F3X",
     "Grip": [
@@ -44,11 +48,7 @@
           ]
         ]
       }
-    },
-    "ExplorerIconContent": {
-      "Content": "None"
-    },
-    "RequiresHandle": false
+    }
   },
   "className": "Tool"
 }
