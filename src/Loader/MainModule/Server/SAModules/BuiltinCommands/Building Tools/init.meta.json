@@ -1,25 +1,7 @@
 {
   "properties": {
-    "Grip": [
-      0.0,
-      0.0,
-      0.4000000059604645,
-      1.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0
-    ],
-    "ExplorerIconContent": {
-      "Content": "None"
-    },
-    "RequiresHandle": false,
     "SourceAssetId": 142785488.0,
-    "ToolTip": "Building Tools by F3X",
+    "RequiresHandle": false,
     "SerializedOverrides": {
       "BinaryString": ""
     },
@@ -48,6 +30,24 @@
           ]
         ]
       }
+    },
+    "ToolTip": "Building Tools by F3X",
+    "Grip": [
+      0.0,
+      0.0,
+      0.4000000059604645,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "ExplorerIconContent": {
+      "Content": "None"
     }
   },
   "className": "Tool"

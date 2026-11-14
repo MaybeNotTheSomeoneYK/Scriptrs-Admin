@@ -47,7 +47,7 @@ function Sync-Model {
 
     Write-Host "[Watcher] Running Rojo syncback..."
 
-    & rojo syncback .\default.project.json --input $modelPath
+    & rojo syncback .\default.project.json --input $modelPath --non-interactive
     if ($LASTEXITCODE -ne 0) {
         Write-Host "[ERROR] Rojo syncback failed. Git was not touched." -ForegroundColor Red
         return
