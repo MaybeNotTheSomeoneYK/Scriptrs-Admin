@@ -1,8 +1,22 @@
 {
   "properties": {
-    "ExplorerIconContent": {
-      "Content": "None"
+    "SerializedOverrides": {
+      "BinaryString": ""
     },
+    "Grip": [
+      0.0,
+      0.0,
+      0.4000000059604645,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
     "SourceAssetId": 142785488.0,
     "RequiresHandle": false,
     "WorldPivotData": {
@@ -31,22 +45,8 @@
         ]
       }
     },
-    "Grip": [
-      0.0,
-      0.0,
-      0.4000000059604645,
-      1.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0
-    ],
-    "SerializedOverrides": {
-      "BinaryString": ""
+    "ExplorerIconContent": {
+      "Content": "None"
     },
     "ToolTip": "Building Tools by F3X"
   },
