@@ -1,28 +1,12 @@
 {
   "properties": {
-    "SerializedOverrides": {
-      "BinaryString": ""
-    },
-    "RequiresHandle": false,
     "ExplorerIconContent": {
       "Content": "None"
     },
+    "SerializedOverrides": {
+      "BinaryString": ""
+    },
     "SourceAssetId": 142785488.0,
-    "ToolTip": "Building Tools by F3X",
-    "Grip": [
-      0.0,
-      0.0,
-      0.4000000059604645,
-      1.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0,
-      0.0,
-      0.0,
-      0.0,
-      1.0
-    ],
     "WorldPivotData": {
       "OptionalCFrame": {
         "position": [
@@ -48,7 +32,23 @@
           ]
         ]
       }
-    }
+    },
+    "RequiresHandle": false,
+    "ToolTip": "Building Tools by F3X",
+    "Grip": [
+      0.0,
+      0.0,
+      0.4000000059604645,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
   },
   "className": "Tool"
 }
