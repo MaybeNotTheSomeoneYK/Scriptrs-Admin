@@ -53,7 +53,7 @@ for _,v in commands do
 				return api.shared.SARemotes.NotifyClient:FireClient(game.Players:GetPlayerByUserId(p.UserId),
 					3,
 					api.settings.CoreName,
-					"NoStudio is enabled on this command, unable to run this command on the game owner"
+					"NoStudio is enabled on this command, unable to run this command in test servers"
 				)
 			end
 		end
