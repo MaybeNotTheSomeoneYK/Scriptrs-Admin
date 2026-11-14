@@ -1,0 +1,22 @@
+{
+  "name": "extraction",
+  "tree": {
+    "$className": "Folder",
+    "$properties": {
+      "ExplorerIconContent": {
+        "Content": {
+          "Uri": "rbxassetid://116979240076692"
+        }
+      },
+      "IconTint": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SerializedOverrides": {
+        "BinaryString": ""
+      }
+    },
+    "$path": "src"
+  }
+}
