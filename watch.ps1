@@ -22,6 +22,12 @@ Register-ObjectEvent -InputObject $watcher -EventName Renamed -SourceIdentifier 
 
 function Sync-Model {
     Write-Host "`n[Watcher] Model save detected. Waiting for file to settle..."
+    $preExistingChanges = git status --porcelain
+
+    if ($preExistingChanges) {
+        Write-Host "[ERROR] Git has uncommitted changes. Commit or stash them before syncing." -ForegroundColor Red
+        return
+    }
 
     $stableCount = 0
     $previous = ""
